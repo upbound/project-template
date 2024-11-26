@@ -18,5 +18,5 @@ jobs:
         uses: upbound/up-project-action@v1
         with:
           up_token: ${{ secrets.UP_TOKEN }}
-          endpoint: https://private-cli.upbound.io
+          endpoint: https://cli.upbound.io
           channel: main
